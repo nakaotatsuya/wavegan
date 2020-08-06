@@ -1,3 +1,12 @@
+## Libraries
+
+I used these libraries.
+
+tensorflow-gpu 1.14.0
+librosa 0.8.0
+numpy 1.19.1
+scipy 1.5.0
+
 # WaveGAN (v2)
 
 Official implementation of **WaveGAN**, a machine learning algorithm which learns to generate raw audio waveforms.
@@ -184,6 +193,8 @@ _G_z = sess.run(G_z, {z: _z})
 # Play audio in notebook
 display(Audio(_G_z[0, :, 0], rate=16000))
 ```
+
+
 
 ## Evaluation
 
